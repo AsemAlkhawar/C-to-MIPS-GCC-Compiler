@@ -88,7 +88,7 @@ make
 Run the compiler with various flags:
 
 ```
-./compile --chk_decl --print_ast --gen_code input_file.c
+./compile --chk_decl --print_ast --gen_code
 ```
 
 ## Skills Demonstrated
