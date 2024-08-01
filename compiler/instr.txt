@@ -1,0 +1,49 @@
+letterTree
+__temp__0 = 0
+count = __temp__0
+__temp__1 = 0
+pos = __temp__1
+__temp__2 = pos
+param __temp__2
+call getNextLetter, 1
+Retrieve __temp__3 = CALL
+letter = __temp__3
+$L2
+$L3
+__temp__4 = 0
+i = __temp__4
+$L4
+$L5
+__temp__5 = letter
+param __temp__5
+call printc, 1
+__temp__6 = i
+__temp__7 = 1
+__temp__8
+i = __temp__8
+$L4
+__temp__10 = count
+__temp__11 = i
+__temp__9 = (__temp__11 <= __temp__10)
+POSITIVE IF GOTO $L5
+call println, 0
+__temp__12 = count
+__temp__13 = 1
+__temp__14
+count = __temp__14
+__temp__15 = pos
+__temp__16 = step
+__temp__17
+pos = __temp__17
+__temp__18 = pos
+param __temp__18
+call getNextLetter, 1
+Retrieve __temp__19 = CALL
+letter = __temp__19
+$L2
+__temp__21 = 0
+__temp__22 = letter
+__temp__20 = (__temp__22 != __temp__21)
+POSITIVE IF GOTO $L3
+__temp__23 = pos
+Return __temp__23

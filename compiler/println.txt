@@ -1,0 +1,15 @@
+.align 2
+.data
+_nl: .asciiz "\n"
+.align 2
+.text
+# println: print out an integer followed by a newline
+println:
+li $v0, 1          # System call for print integer
+syscall            # Execute syscall (prints the integer in $a0)
+
+li $v0, 4          # System call for print string
+la $a0, _nl        # Load address of newline character into $a0
+syscall            # Execute syscall (prints newline)
+
+jr $ra             # Return to caller
