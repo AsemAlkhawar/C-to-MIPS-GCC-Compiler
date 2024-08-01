@@ -101,6 +101,4 @@ Run the compiler with various flags:
 - Software architecture
 
 Note: This README provides a high-level overview. For detailed implementation specifics, please refer to the individual source files.
-```
 
-You can copy this content directly into your README.md file.
