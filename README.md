@@ -1,7 +1,7 @@
 
 # Custom Compiler Project
 
-This project implements a custom compiler for a simple programming language. The compiler performs lexical analysis, parsing, semantic analysis, and code generation, translating the source code into MIPS assembly.
+This project implements a custom compiler for C-- Subset of C programming language. The compiler performs lexical analysis, parsing, semantic analysis, and code generation, translating the source code into MIPS assembly.
 
 ## Project Structure
 
