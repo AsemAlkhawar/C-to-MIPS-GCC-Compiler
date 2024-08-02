@@ -100,9 +100,11 @@ Run the compiler with various flags:
 - C programming
 - Software architecture
 
-## Author
+## 👨‍💻 Author
 
-- **Asem Alkhawar**
+**Asem Alkhawar**
+- GitHub: [@AsemAlkhawar](https://github.com/AsemAlkhawar)
+- LinkedIn: [Asem Alkhawar](https://www.linkedin.com/in/asem7)
 
 
 Note: This README provides a high-level overview. For detailed implementation specifics, please refer to the individual source files.
